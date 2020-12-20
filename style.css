@@ -1,0 +1,206 @@
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+  color: black;
+}
+
+/*-----Navigation-------*/
+.navbar{
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: .9rem;
+  letter-spacing: .1rem;
+  color: rgb(231, 118, 118)!important;
+}
+.navbar-brand img{
+  height:4rem; 
+  width:10rem;
+}
+.navbar-brand{
+  height: 4rem;
+}
+
+.navbar-brand li{
+  padding-right: .7rem;
+} 
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link:hover{
+  color: rgb(226, 121, 121);
+}
+
+/*------start of landing page-----*/
+.home-inner{
+  background-image:url(https://bonnieclydeworldwide.com/wp-content/uploads/2020/03/pizzacover.jpeg);
+  height:4rem; 
+  width:10rem;
+}
+/*------End of landing page-----*/
+/*------start of Menu page-----*/
+.caption{
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 38%;
+  z-index: 1;
+  color:white ;
+}
+.caption h1{
+  font-size: 10rem;
+  font-weight: 700;
+  letter-spacing: .3rem;
+  text-shadow: 2px 2px 4px rgb(0, 0, 0);
+  padding-bottom: .1rem;
+}
+
+.caption h4{
+  font-size: 2.0rem;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 4px rgb(0, 0, 0);
+  padding-bottom: 1.6rem;
+}
+.btn-lg{
+  border-radius: 1%;
+  border-width: medium;
+}
+#Menu h1{
+  font-size: 3.8rem;
+  font-weight: 700;
+  letter-spacing: .1rem;
+  text-transform: capitalize;
+  text-shadow: 2px 2px 4px rgb(143, 73, 73);
+}
+
+#Menu img{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+
+  height: 20rem;
+  width: 30rem;
+}
+
+.lead{
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.btn-danger:hover{
+  background-color: rgb(129, 61, 61);
+  margin: 1rem;
+  padding: 1.5rem;
+  border:0rem;  
+}
+.btn-danger a{
+  color: whitesmoke;
+}
+/*------End of Menu page-----*/
+/*--------start of about us page------*/
+
+.fixed {
+  background-image: url(https://doyouremember.com/wp-content/uploads/2019/06/pizza-hut-from-the-1970s.jpg);
+  z-index: -1;
+}
+.dark{
+  background-color: rgba(0,0,0,0.75);
+  text-transform: uppercase;
+  color: whitesmoke;
+}
+.dark2{
+  margin-bottom: 0rem;
+  margin:0rem 5rem 0rem 5rem;
+  padding-top: 2rem;
+}
+.fixed-background h2{
+  font-size: 2.5rem;
+  font-weight: 700;
+  padding-bottom: 3rem;
+}
+.fixed-background h3{
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding-bottom: 1rem;
+}
+.feature{
+  padding-bottom: 2rem;
+  padding:1rem;
+  text-align: center;
+}
+.fixed-background p{
+  font-size: 0.8rem;
+  padding-bottom: 0rem;
+  text-align: center;
+}
+/*--------End of about us page------*/
+#Contact{
+  background-color: wheat;
+  padding-top: 0%;
+  margin-top: 0%;
+}
+.socket{
+  padding-bottom: 0rem;
+}
+footer{
+  background-color: rgb(0, 0, 0);
+  color: whitesmoke;
+  position: relative;
+  text-align: center;
+}
+footer a{
+  padding-bottom: 2rem;
+  color: white;
+}
+footer svg.svg-inline--fa{
+  font-size: 1.6rem;
+  margin-left: 1.2rem;
+  margin-bottom: 1.2rem;
+  margin-top:0rem;
+}
+/*============= COURSE SECTION =============*/
+
+.narrow {
+  width: 75%;
+  margin: 1.5rem auto;
+  padding-top: 2rem;
+}
+.narrow h1 {
+    font-size: 2.4rem;
+  }
+.btn-secondary {
+  border-width: medium;
+  border-radius: 0;
+  padding: .6rem 1.2rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  margin: 1rem;
+  border-color: #1EBBA3;
+  background-color: #1EBBA3;
+  color: white;
+}
+.btn-secondary:hover,
+.btn-secondary:focus {
+  border-color: #189582;
+  background-color: #189582;
+  color: white;
+}
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
